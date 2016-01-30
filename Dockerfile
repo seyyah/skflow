@@ -6,3 +6,5 @@ RUN pip install git+git://github.com/tensorflow/skflow.git
 RUN mkdir ~/works
 RUN cd ~/works && git clone https://gist.github.com/2620f764561eb7c6aecb.git
 RUN mv ~/works/2620f764561eb7c6aecb ~/works/datasets
+RUN cd ~/works && git clone https://gist.github.com/a31e7b8e8a3e7def2d46.git
+RUN mv ~/works/a31e7b8e8a3e7def2d46/*.* ~/works/
